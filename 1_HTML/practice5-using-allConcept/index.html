@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>All media's in HTML : how to use mordern html tags</h1>
+
+    <span>
+        <ul>
+            <li><a href="#logo">companies logo</a></li>
+            <li><a href="#audio">audio file</a></li>
+            <li><a href="#video">video file</a></li>
+            <li><a href="#page">web page from another source</a></li>
+            <li><a href="#youtube">youtube video</a></li>
+        </ul>
+    </span>
+
+    <h2 id="logo">our companies logo</h2>
+    <img src="logo.jpg" alt="my logo" width="100px" loading="lazy"><br>
+
+
+    <h2 id="audio">audio file songs</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio> <br>
+
+    <h2 id="video">video file</h2>
+    <video controls src="videofile.mp4" width="200px" ></video> <br>
+
+    
+    <h2 id="page">source from another web page to see in our page</h2>
+    <!-- inserting another html file into current page -->
+    <iframe src="../practice3-tables/1table.html" frameborder="1"
+    width="1000px" height="400px"></iframe>
+    <br> <br>
+
+
+    <!-- inserting youtube video in iFrame -->
+    <section>
+        <h2 id="youtube">youtube video embeded</h2>
+        <table>
+            <tr>
+                <td><iframe src="https://youtube.com/embed/k7ELO356Npo" frameborder="1" height="250" 
+                    width="450" allowfullscreen></iframe></td>
+                <td><iframe src="https://youtube.com/embed/k7ELO356Npo" frameborder="1" height="250" 
+                    width="450" allowfullscreen></iframe></td>
+                <td><iframe src="https://youtube.com/embed/k7ELO356Npo" frameborder="1" height="250" 
+                    width="450" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>

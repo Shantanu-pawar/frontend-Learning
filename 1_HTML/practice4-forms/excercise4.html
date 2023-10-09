@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Event Registration</h2>
+    
+    <form>
+        <label for="Name">Name</label>
+        <br>
+        <input type="text" id="Name" name="Name">
+        <br> <br>
+
+        <label for="Email">Email</label> <br>
+        <input type="email" id="Email" name="Email" placeholder="abc@gmail.com">
+        <br> <br>
+        
+        <label for="phone">Phone Number</label> <br>
+        <input type="tel" id="phone" name="phone">
+        <br> <br>
+
+        <label for="branch">Select the Department</label> <br>
+        <select name="branch" id="branch">
+            <option value="Other">Other</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="civil">civil</option>
+            <option value="IT">IT</option>
+            <option value="ENTC">ENTC</option>
+        </select>
+        <br> <br>
+        
+        <fieldset>
+            <legend>Skills</legend>
+            
+            <input type="checkbox" id="HTML" name="HTML"><br>
+            <label for="HTML">HTML</label> 
+            <br><br>
+
+            <input type="checkbox" id="CSS" name="CSS"><br>
+            <label for="CSS">CSS</label> 
+            <br><br>
+
+            <input type="checkbox" id="JavaScript" name="JavaScript"><br>
+            <label for="JavaScript">JavaScript</label> 
+            <br><br>
+        </fieldset>
+        <br> <br>
+
+        <!-- upload your markshit -->
+        <label for="markshit">UPload</label> <br>
+        <input type="file" name="markshit" id="markshit" value="markshit">
+        <br> <br>
+
+        <!-- number of year studied -->
+
+        <label for="counter">Experience level</label> <br>
+        <input type="number" name="counter" id="counter" min="0" max="9"> <br>
+
+        <!-- work Availability -->
+       <fieldset>
+        <legend>Select</legend>
+
+            <label for="fulltime">Full time</label>
+            <input type="radio" name="radio" id="fulltime">
+
+            <label for="parttime">Part time work</label>
+            <input type="radio" name="radio" id="parttime">
+       </fieldset>
+
+        <label for="comment">comments</label> <br>
+        <textarea name="comment" id="comment" cols="30" rows="2" placeholder="Enter feedback"></textarea>
+        
+        <input type="submit" value="Registration" name="button" id="button">
+    </form>
+</body>
+</html>

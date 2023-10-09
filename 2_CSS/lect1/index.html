@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- as we know the inline css let's see here internal Css -->
+    <style>
+        
+            /*1. element selector - ex : h1, p, section tag and much more */
+           h1{
+            background-color: pink;
+            text-align: center;
+           }
+
+           /* 2. class selector - we used (.)to reffer  class selector */
+           .heading{
+               background-color: whitesmoke;
+            }
+            
+            /* 3. ID selector - we used (#)to reffer  id selector */
+            #content{
+                background-color: wheat;
+                font-style: oblique;
+                text-align: center;
+
+                width: 500px;
+                padding: 30px;
+                margin: 50px 200px;
+            }
+
+            /* this is example of grouping the elements and then style*/
+            p,h6{
+                background-color: rgb(175, 192, 243);
+                width: 500px;
+                text-align: center;
+            }
+        </style>
+            
+</head>
+<body>
+    
+    <h1>THIS IS HEADING</h1>
+
+    <h2 class="heading">heading 2</h2>
+    <h2 class="heading">htis is also heading</h2>
+
+    <p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis distinctio 
+        delectus voluptates, necessitatibus rem, repellendus aut, ipsum numquam incidunt doloremque
+         rerum nihil sapiente. necessitatibus rem, repellendus aut, ipsum numquam incidunt doloremque
+         rerum nihil sapiente. necessitatibus rem, repellendus aut, ipsum numquam incidunt doloremque
+         rerum nihil sapiente. necessitatibus rem, repellendus aut, ipsum numquam incidunt doloremque
+         rerum nihil sapiente. 
+    </p>
+
+    <article id="content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit,
+         nam necessitatibus consequatur commodi tempore corrupti 
+        distinctio, sapiente fuga quisquam ab sunt minus similique aspernatur ea officia? Unde corrupti ab error.
+    </article>
+    
+    <h6>this is heading of grouping</h6>
+    <hr>
+    <p>this is grouping </p>
+
+</body>
+</html>

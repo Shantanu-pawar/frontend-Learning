@@ -1,0 +1,15 @@
+in this lecture 
+
+1. we just have seen like how inline and internal CSS works 
+    (as we already know how inline works so we had seen internal CSS only.)
+
+2. we learned about selectors.
+    now majorly in styleing CSS there is only 3 type of selectors so by using that we can 
+    style our entire page 
+
+    a] element selector
+    b] class selector
+    c] id selector
+
+    we've seen all these example in this HTML doc.
+
