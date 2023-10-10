@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .parent{
+        background-color: salmon;
+        width: 60%;
+    }
+
+    .child{
+        background-color: whitesmoke;
+        width: 30%;  /*comparitive to parent width kardo iski 10% */
+    }
+
+    /* note about [em] : meaning of em :: means it calculate (10*parent px size) */
+    .container{
+        font-size: 10px;
+    }
+    .box{
+        font-size: 10em; /*so now it' will create 10*10  */
+    }
+
+    /* note about [rem] : means its size is depend upon root element of html and it's default size is 16px
+    so (16px * [whatever your're gonna put rem]) */
+
+</style>
+<body>
+    
+    <div class="parent">
+        <div class="child"> this is child div </div>
+    </div>
+
+    <h2>now let's see how to define all that units</h2>
+
+    <p>helloooooo</p>
+    <div class="container">
+        <div class="box"> welcome to cload</div>
+    </div>
+
+</body>
+</html>
