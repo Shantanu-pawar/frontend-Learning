@@ -1,0 +1,23 @@
+in this we'll see how to position property ?
+
+like suppose we've lot's of tags on our web page so we used this positon property
+to well position those tags on our web page 
+
+so there is 4 type of positioning : 
+    static
+    relative
+    fixed
+    sticky
+    absolute
+
+
+    note : so fixed position is used like in contact us ?::
+
+    sticky is only show's his behaviour in it's parent container just see in your code. 
+    static is bydefault positioning.
+    
+    
+
+
+     
+
